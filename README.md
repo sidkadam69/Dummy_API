@@ -14,7 +14,7 @@ This project deploys a dummy model using FastAPI.
 1. Clone the repo and navigate to the folder:
 ```bash
 git clone <repo-url>
-cd Dummy_Model_API
+cd Dummy_API
 ```
 
 2. Create a virtual environment and install requirements:
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
-4. Test with:
+4. Test with POSTMAN:
 ```json
 POST http://127.0.0.1:8000/predict
 {
